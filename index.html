@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Step-by-step Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="container">
+
+        <h1>Quick JS Quiz</h1>
+
+
+        <div id="quiz" class="quiz">
+
+            <div id="progress" class="progress"> Loading...</div>
+
+            <div id="questionBox" class="question-box hidden">
+
+                <div id="questionText" class="question-text"></div>
+
+                <ul id="optionsList" class="options-list"></ul>
+
+            </div>
+
+
+            <div id="resultBox" class="result-box hidden">
+
+                <h2>Results</h2>
+
+                <p id="resultSummary"></p>
+
+                <button id="restartBtn">Retake Quiz</button>
+
+            </div>
+
+        </div>
+
+
+        <footer class="footer">Tip: pick an answer — it will auto move to the next question.</footer>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
